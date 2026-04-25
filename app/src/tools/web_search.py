@@ -4,10 +4,7 @@ from src.contracts.tool_results import WebSearchResult
 
 
 class TavilyWebSearcher:
-    """Универсальный web search через Tavily.
-
-    Агент сам формирует запрос — тул просто его выполняет.
-    """
+    """Implements WebSearcher using Tavily API"""
 
     async def search(self, query: str) -> WebSearchResult:
         async with httpx.AsyncClient(timeout=10) as client:
