@@ -61,7 +61,7 @@ src/
 ### 1. Клонировать репозиторий
 
 ```bash
-git clone <repo-url>
+git clone <https://github.com/leanleanlean96/chess-coach-agent-bot/>
 cd chess-coach-agent-bot-master/app
 ```
 
